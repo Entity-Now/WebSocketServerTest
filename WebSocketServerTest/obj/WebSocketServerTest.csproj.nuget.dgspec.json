@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\language\\cs\\WebSocketServerTest\\WebSocketServerTest\\WebSocketServerTest.csproj": {}
+    "C:\\language\\cs\\WebSocketServerTest\\WebSocketServerTest\\WebSocketServerTest.csproj": {}
   },
   "projects": {
-    "E:\\language\\cs\\WebSocketServerTest\\WebSocketServerTest\\WebSocketServerTest.csproj": {
+    "C:\\language\\cs\\WebSocketServerTest\\WebSocketServerTest\\WebSocketServerTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\language\\cs\\WebSocketServerTest\\WebSocketServerTest\\WebSocketServerTest.csproj",
+        "projectUniqueName": "C:\\language\\cs\\WebSocketServerTest\\WebSocketServerTest\\WebSocketServerTest.csproj",
         "projectName": "WebSocketServerTest",
-        "projectPath": "E:\\language\\cs\\WebSocketServerTest\\WebSocketServerTest\\WebSocketServerTest.csproj",
-        "packagesPath": "C:\\Users\\29663\\.nuget\\packages\\",
-        "outputPath": "E:\\language\\cs\\WebSocketServerTest\\WebSocketServerTest\\obj\\",
+        "projectPath": "C:\\language\\cs\\WebSocketServerTest\\WebSocketServerTest\\WebSocketServerTest.csproj",
+        "packagesPath": "C:\\Users\\86177\\.nuget\\packages\\",
+        "outputPath": "C:\\language\\cs\\WebSocketServerTest\\WebSocketServerTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\29663\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\86177\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -45,6 +45,14 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "dependencies": {
+            "MaterialDesignColors": {
+              "target": "Package",
+              "version": "[3.0.0-ci426, )"
+            },
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[5.0.0-ci426, )"
+            },
             "WebSocketSharp": {
               "target": "Package",
               "version": "[1.0.3-rc11, )"
@@ -69,7 +77,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

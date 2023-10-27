@@ -27,10 +27,13 @@ namespace WebSocketServerTest.Core
         {
             PrintMsg.SendMsg($"[{this.StartTime}] 与客户{this.ID}连接成功.");
         }
-        protected void OnClose()
+        protected override void OnClose(CloseEventArgs e)
         {
-            
             PrintMsg.SendMsg($"[{this.StartTime}] 与客户{this.ID}连接断开连接.");
+        }
+        protected override void OnError(ErrorEventArgs e)
+        {
+            PrintMsg.SendMsg($"[{this.StartTime}] 与客户{this.ID}连接时出错了：{e.Message}.");
         }
     }
 }

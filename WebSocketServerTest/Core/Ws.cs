@@ -15,14 +15,21 @@ namespace WebSocketServerTest.Core
         static public void WssStart(string url)
         {
             wss = new WebSocketServer(url);
-            // 为websocket-sharp客户端和服务器配置SSL证书。
-            wss.SslConfiguration.ServerCertificate = new X509Certificate2("myCert.pfx", "123456");
+            if (url.Contains("wss://"))
+            {
+                // 为websocket-sharp客户端和服务器配置SSL证书。
+                wss.SslConfiguration.ServerCertificate = new X509Certificate2("ssl/certificate.pfx","666666");
+            }
             wss.AddWebSocketService<Repeater>("/repeater");
             wss.Start();
             if(wss.IsListening)
                 PrintMsg.SendMsg($"WebSocket address is:{url} 已启动");
             else
                 PrintMsg.SendMsg("启动失败");
+            if (wss.IsSecure)
+            {
+                PrintMsg.SendMsg("此连接是安全加密的.");
+            }
         }
         static public void Stop()
         {

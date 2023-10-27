@@ -8,10 +8,40 @@
     ".NETCoreApp,Version=v6.0": {
       "WebSocketServerTest/1.0.0": {
         "dependencies": {
+          "MaterialDesignColors": "3.0.0-ci426",
+          "MaterialDesignThemes": "5.0.0-ci426",
           "WebSocketSharp": "1.0.3-rc11"
         },
         "runtime": {
           "WebSocketServerTest.dll": {}
+        }
+      },
+      "MaterialDesignColors/3.0.0-ci426": {
+        "runtime": {
+          "lib/net6.0/MaterialDesignColors.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "MaterialDesignThemes/5.0.0-ci426": {
+        "dependencies": {
+          "MaterialDesignColors": "3.0.0-ci426",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.39"
+        },
+        "runtime": {
+          "lib/net6.0/MaterialDesignThemes.Wpf.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.39": {
+        "runtime": {
+          "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.39.4716"
+          }
         }
       },
       "WebSocketSharp/1.0.3-rc11": {
@@ -29,6 +59,27 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "MaterialDesignColors/3.0.0-ci426": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-03jPM8DWs2I6/JJGDCHo9O4Cipd2/OYqGOYIs9Yc6mUHA5sNmmRrVaCoscBn3JKcPBV/Q994MuDsbULoe2xxFA==",
+      "path": "materialdesigncolors/3.0.0-ci426",
+      "hashPath": "materialdesigncolors.3.0.0-ci426.nupkg.sha512"
+    },
+    "MaterialDesignThemes/5.0.0-ci426": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-n5kPs3jHj3HYWkHKXKceBkZTLlwFgpK5zfPBB1ZohNDNtCPj7OLRorSrK+1dmI2hdGXyND9r0tHbAW+hVdx7WA==",
+      "path": "materialdesignthemes/5.0.0-ci426",
+      "hashPath": "materialdesignthemes.5.0.0-ci426.nupkg.sha512"
+    },
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.39": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8PZKqw9QOcu42xk8puY4P1+EXHL9YGOR9b7qhaYx5cILHul456H073tj99vyPcCt0W0781T9RwHqkx507ZyUpQ==",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.39",
+      "hashPath": "microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
     },
     "WebSocketSharp/1.0.3-rc11": {
       "type": "package",

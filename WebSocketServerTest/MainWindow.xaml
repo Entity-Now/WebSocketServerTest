@@ -7,7 +7,7 @@
         xmlns:local="clr-namespace:WebSocketServerTest"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid Margin="15,15,0,0">
+    <Grid Margin="14">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="0.2*"/>
             <ColumnDefinition Width="*"/>
@@ -17,7 +17,8 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <StackPanel Grid.Row="0" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center">
-            <TextBlock TextWrapping="Wrap" FontSize="16" Block.TextAlignment="Center" VerticalAlignment="Bottom">
+            <Border Background="#FFF5F5F5" Padding="4">
+                <TextBlock TextWrapping="Wrap" FontSize="16" Block.TextAlignment="Center" VerticalAlignment="Bottom">
                 <ComboBox SelectedIndex="0" x:Name="protocol">
                    <ComboBox.Items>
                        <sys:String>
@@ -31,14 +32,22 @@
                 <Run Text="://127.0.0.1:" BaselineAlignment="Center"/>
                 <TextBox x:Name="port" MinWidth="58" Text="8998"/>
                 <Run Text="/repeater" BaselineAlignment="Center"/>
-            </TextBlock>
+                </TextBlock>
+            </Border>
+            <Border Margin="10 0" Background="#FFF5F5F5" Padding="4">
+                <TextBlock Block.TextAlignment="Center" VerticalAlignment="Center">
+                <Run Text="请输入证书密码：" BaselineAlignment="Center"/>
+                <TextBox Text="666666"/>
+                </TextBlock>
+            </Border>
             <Button x:Name="Listen" Margin="5 0" Content="监听" Click="Listen_Click"/>
             <Button x:Name="Stop" Margin="5 0"  Content="停止监听" Click="Stop_Click"/>
         </StackPanel>
-        <Border Grid.Column="0" Grid.Row="1" Background="WhiteSmoke">
+        <Border Grid.Column="0" Grid.Row="1" Background="WhiteSmoke" Margin="0 10">
             <!--<ListBox/>-->
         </Border>
         <!--显示框-->
-        <TextBox x:Name="receiveMsg" Grid.Row="1" Grid.Column="1" TextWrapping="Wrap" MinLines="10" />
+        <TextBox  Margin="10,10,0,0" x:Name="receiveMsg" Grid.Row="1" Grid.Column="1" TextWrapping="Wrap" MinLines="10" 
+                 Style="{StaticResource MaterialDesignOutlinedTextBox}"/>
     </Grid>
 </Window>
