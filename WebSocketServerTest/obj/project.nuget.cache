@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "aE+IpvqaOxJWoEAnDh7a/3GD7tENfYUcnt9DhWAB4Ev3obPTqhNAIvu4/FhKeg4miE7HeSknEmerKt9BZaqb+g==",
+  "success": true,
+  "projectFilePath": "E:\\language\\cs\\WebSocketServerTest\\WebSocketServerTest\\WebSocketServerTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\29663\\.nuget\\packages\\websocketsharp\\1.0.3-rc11\\websocketsharp.1.0.3-rc11.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net6.0-windows7.0”还原包“WebSocketSharp 1.0.3-rc11”。此包可能与项目不完全兼容。",
+      "libraryId": "WebSocketSharp",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}
