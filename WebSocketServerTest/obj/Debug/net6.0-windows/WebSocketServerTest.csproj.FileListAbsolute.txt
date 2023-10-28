@@ -51,3 +51,10 @@ C:\language\cs\WebSocketServerTest\WebSocketServerTest\bin\Debug\net6.0-windows\
 C:\language\cs\WebSocketServerTest\WebSocketServerTest\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
 C:\language\cs\WebSocketServerTest\WebSocketServerTest\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
 C:\language\cs\WebSocketServerTest\WebSocketServerTest\obj\Debug\net6.0-windows\App.baml
+E:\language\cs\WebSocketServerTest\WebSocketServerTest\bin\Debug\net6.0-windows\ssl\certificate.crt
+E:\language\cs\WebSocketServerTest\WebSocketServerTest\bin\Debug\net6.0-windows\ssl\certificate.pfx
+E:\language\cs\WebSocketServerTest\WebSocketServerTest\bin\Debug\net6.0-windows\ssl\private.key
+E:\language\cs\WebSocketServerTest\WebSocketServerTest\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+E:\language\cs\WebSocketServerTest\WebSocketServerTest\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+E:\language\cs\WebSocketServerTest\WebSocketServerTest\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+E:\language\cs\WebSocketServerTest\WebSocketServerTest\obj\Debug\net6.0-windows\App.baml

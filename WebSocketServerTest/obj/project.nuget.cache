@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "ekWsPTFrnT7N1I2kJiPRENAS3YsEkPfYXwdlYWIAHEtJxmqpCm/ndZvePO91yEhenn/B5xOZrtIqNa9NEUw2fA==",
+  "dgSpecHash": "Bpj55kHpctf1XHnZZcQvshersY/aGR8+nqY2PDLyeVS8xFrlMIBmVrpoBouf7e+9z0Wk4eGz+xvyuQqWSQOmWg==",
   "success": true,
-  "projectFilePath": "C:\\language\\cs\\WebSocketServerTest\\WebSocketServerTest\\WebSocketServerTest.csproj",
+  "projectFilePath": "E:\\language\\cs\\WebSocketServerTest\\WebSocketServerTest\\WebSocketServerTest.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\86177\\.nuget\\packages\\materialdesigncolors\\3.0.0-ci426\\materialdesigncolors.3.0.0-ci426.nupkg.sha512",
-    "C:\\Users\\86177\\.nuget\\packages\\materialdesignthemes\\5.0.0-ci426\\materialdesignthemes.5.0.0-ci426.nupkg.sha512",
-    "C:\\Users\\86177\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
-    "C:\\Users\\86177\\.nuget\\packages\\websocketsharp\\1.0.3-rc11\\websocketsharp.1.0.3-rc11.nupkg.sha512"
+    "C:\\Users\\29663\\.nuget\\packages\\materialdesigncolors\\3.0.0-ci426\\materialdesigncolors.3.0.0-ci426.nupkg.sha512",
+    "C:\\Users\\29663\\.nuget\\packages\\materialdesignthemes\\5.0.0-ci426\\materialdesignthemes.5.0.0-ci426.nupkg.sha512",
+    "C:\\Users\\29663\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+    "C:\\Users\\29663\\.nuget\\packages\\websocketsharp\\1.0.3-rc11\\websocketsharp.1.0.3-rc11.nupkg.sha512"
   ],
   "logs": [
     {

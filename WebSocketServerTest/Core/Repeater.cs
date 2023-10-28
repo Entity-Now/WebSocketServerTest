@@ -21,6 +21,7 @@ namespace WebSocketServerTest.Core
             {
                 msg = "binary";
             }
+            this.Send(msg);
             PrintMsg.SendMsg($"[{this.StartTime}] 收到{this.ID}客户的信息：{msg}.");
         }
         protected override void OnOpen()
